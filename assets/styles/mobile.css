@@ -1,0 +1,47 @@
+﻿@charset "UTF-8");
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --lightPink: hsl(275, 100%, 97%);
+  --grayishPurple: hsl(292, 16%, 49%);
+  --darkPurple: hsl(292, 42%, 14%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--lightPink);
+  background-image: url("../images/background-pattern-mobile.svg");
+  background-position: top;
+  background-size: auto 200px;
+  background-repeat: no-repeat;
+  position relative;
+}
+
+main {
+  background-color: var(--white);
+  width: 290px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -25%);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+h1, h2 {
+  color: var(--darkPurple);
+}
+
+#faq {
+  display: flex;
+  
+}
+
+.question {
+  display: flex;
+}
+
