@@ -26,7 +26,7 @@ body {
 main {
   font-family: 'Work Sans', sans-serif;
   background-color: var(--white);
-  width: 290px;
+  width: 280px;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -41,13 +41,24 @@ h1, h2 {
 
 #faq {
   display: flex;
+  gap: 25px;
   font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+#faq img {
+  width: 25px;
 }
 
 .question {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   font-size: 12px;
   font-weight: 600;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .answer {
