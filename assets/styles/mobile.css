@@ -1,5 +1,7 @@
 ﻿@charset "UTF-8");
 
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
+
 :root {
   --white: hsl(0, 0%, 100%);
   --lightPink: hsl(275, 100%, 97%);
@@ -22,6 +24,7 @@ body {
 }
 
 main {
+  font-family: 'Work Sans', sans-serif;
   background-color: var(--white);
   width: 290px;
   position: absolute;
@@ -29,7 +32,7 @@ main {
   top: 50%;
   transform: translate(-50%, -25%);
   border-radius: 10px;
-  padding: 10px;
+  padding: 20px;
 }
 
 h1, h2 {
@@ -38,10 +41,18 @@ h1, h2 {
 
 #faq {
   display: flex;
-  
+  font-weight: 700;
 }
 
 .question {
   display: flex;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.answer {
+  color: var(--grayishPurple);
+  font-size: 16px;
+  font-weight: 400;
 }
 
