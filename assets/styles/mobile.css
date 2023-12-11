@@ -19,7 +19,6 @@ body {
   background-color: var(--lightPink);
   background-image: url("../images/background-pattern-mobile.svg");
   background-position: top;
-  background-size: auto 200px;
   background-repeat: no-repeat;
   position relative;
 }
