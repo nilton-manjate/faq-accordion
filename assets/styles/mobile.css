@@ -33,6 +33,7 @@ main {
   transform: translate(-50%, -25%);
   border-radius: 10px;
   padding: 20px;
+  box-shadow: 0 0 20px hsla(292, 42%, 14%, 0.2);
 }
 
 #faq {
@@ -46,6 +47,10 @@ main {
 
 #faq img {
   width: 25px;
+}
+
+section {
+  border-top: 1px solid var(--lightPink);
 }
 
 .question {
@@ -69,6 +74,7 @@ main {
   color: var(--grayishPurple);
   font-size: 16px;
   font-weight: 400;
+  margin-bottom: 25px;
 }
 
 @media only screen and (min-width: 375px) {
