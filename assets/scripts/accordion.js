@@ -7,7 +7,10 @@ const icon = document.getElementsByClassName("icon");
 answer[0].style.display = "none";
 icon[0].src = "assets/images/icon-plus.svg";
 function show0() {
-  if (answer[0].style.display == "none") {
+  if (event.key === "Tab" && event.shiftKey === false) {
+    event.preventDefault();
+    question[1].focus();
+  } else if (answer[0].style.display == "none") {
     answer[0].style.display = "block";
     icon[0].src = "assets/images/icon-minus.svg";
   } else {
@@ -22,7 +25,10 @@ question[0].addEventListener("keydown", show0);
 answer[1].style.display = "none";
 icon[1].src = "assets/images/icon-plus.svg";
 function show1() {
-  if (answer[1].style.display == "none") {
+  if (event.key === "Tab" && event.shiftKey === false) {
+    event.preventDefault();
+    question[2].focus(); 
+  } else if (answer[1].style.display == "none") {
     answer[1].style.display = "block";
     icon[1].src = "assets/images/icon-minus.svg";
   } else {
@@ -37,7 +43,10 @@ question[1].addEventListener("keydown", show1);
 answer[2].style.display = "none";
 icon[2].src = "assets/images/icon-plus.svg";
 function show2() {
-  if (answer[2].style.display == "none") {
+  if (event.key === "Tab" && event.shiftKey === false) {
+    event.preventDefault();
+    question[3].focus();
+  } else if (answer[2].style.display == "none") {
     answer[2].style.display = "block";
     icon[2].src = "assets/images/icon-minus.svg";
   } else {
@@ -52,7 +61,10 @@ question[2].addEventListener("keydown", show2);
 answer[3].style.display = "none";
 icon[3].src = "assets/images/icon-plus.svg";
 function show3() {
-  if (answer[3].style.display == "none") {
+  if (event.key === "Tab" && event.shiftKey === false) {
+    event.preventDefault();
+    question[0].focus();
+  } else if (answer[3].style.display == "none") {
     answer[3].style.display = "block";
     icon[3].src = "assets/images/icon-minus.svg";
   } else {
