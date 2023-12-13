@@ -70,7 +70,6 @@ section {
 }
 
 .answer {
-  display: none;
   color: var(--grayishPurple);
   font-size: 16px;
   font-weight: 400;
