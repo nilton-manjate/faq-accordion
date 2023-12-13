@@ -27,13 +27,10 @@ main {
   font-family: 'Work Sans', sans-serif;
   background-color: var(--white);
   width: 280px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -25%);
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 0 20px hsla(292, 42%, 14%, 0.2);
+  margin: 150px auto;
 }
 
 #faq {
@@ -82,6 +79,7 @@ section {
   }
 
   main {
+    margin: 200px auto;
     width: 520px;
   }
   
