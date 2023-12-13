@@ -9,6 +9,7 @@
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
@@ -40,10 +41,13 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 
+### What I learned
+- I've learned how to make keyboard navigation accessible by utilizing tabIndex and focus() methods.
 
 ### Useful resources
 
 - [Guide to CSS flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - The website assists me in finding the property I want to use to arrange elements within the container.
+- [HTML DOM Element tabIndex - W3Schools](https://www.w3schools.com/jsref/prop_html_tabindex.asp)
 
 ## Author
 
